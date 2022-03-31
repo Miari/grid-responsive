@@ -47,3 +47,16 @@ div {
 .footer {
   grid-area: footer;
 }
+
+@media screen and (max-width:768px){
+  body {
+    grid-template-columns: 1fr;
+  
+    grid-template-areas: 
+     "header"
+     "nav"
+     "main-section" 
+     "right-section"
+     "footer";
+  }
+}
